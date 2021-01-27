@@ -1,0 +1,34 @@
+@import "~sanitize.css";
+@import "~include-media/dist/_include-media.scss";
+
+$dark_blue: hsl(238, 29%, 16%);
+$soft_red: hsl(14, 88%, 65%);
+
+// Gradient colors
+$soft_violet: hsl(273, 75%, 66%);
+$soft_blue: hsl(240, 73%, 65%);
+$bg_gradient: linear-gradient(0deg, $soft_blue 0%, $soft_violet 100%);
+// Text
+
+$dark_gray_blue: hsl(237, 12%, 33%);
+$gray_blue: hsl(240, 6%, 50%);
+
+// Divider
+$light_blue: hsl(240, 5%, 91%);
+
+// Fonts
+$font-size: 12px;
+$base_font: 'Kumbh Sans', sans-serif;
+
+body {
+  min-height: 100vh;
+  font-size: $font-size;
+  font-family: $base_font;
+  background: $soft_violet;
+  background: $bg-gradient;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
